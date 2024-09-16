@@ -4,12 +4,14 @@ import Navbar from "../app/components/Navbar";
 
 
 
+
 const Home = () => {
   return (
     <div>
 
       <Navbar></Navbar>
        <HeroSection/>
+       
        
        
     </div>
