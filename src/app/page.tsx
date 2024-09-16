@@ -1,17 +1,18 @@
-// pages/index.js
-import Navbar from '../app/components/Navbar';
-import HeroSection from '../app/components/HeroSection';
+import React from "react";
+import HeroSection from "./components/HeroSection";
+import Navbar from "../app/components/Navbar";
 
 
-export default function Home() {
+
+const Home = () => {
   return (
     <div>
-       <Navbar />
-       <HeroSection/>
-       </div>
-       
-       
-      
 
-  );
+      <Navbar></Navbar>
+       <HeroSection/>
+       
+       
+    </div>
+   );
 }
+ export default Home;
